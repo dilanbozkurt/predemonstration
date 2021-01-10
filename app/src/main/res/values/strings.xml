@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="textview1">TextView</string>
+    <string name="textview2">TextView</string>
+    <string name="textview3">TextView</string>
+    <string name="textview4">TextView</string>
+    <string name="textview5">TextView</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="todo7">TODO</string>
+    <string name="textview6">TextView</string>
+    <string name="textview7">TextView</string>
+    <string name="title_activity_tab_guard">tabGuardActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>

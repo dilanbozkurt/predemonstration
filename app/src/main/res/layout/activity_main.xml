@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newpic"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:text="Alarm"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.766"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstAidButton" />
+
+    <TextView
+        android:id="@+id/textGuard"
+        android:layout_width="63dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginRight="75dp"
+        android:text="Guardian"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guardButton" />
+
+    <ImageButton
+        android:id="@+id/guardButton"
+        android:layout_width="97dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/button_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_saglik2_foreground" />
+
+    <ImageButton
+        android:id="@+id/alarmButton"
+        android:layout_width="97dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/button_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textGuard"
+        app:srcCompat="@mipmap/ic_kalp2_foreground" />
+
+    <ImageButton
+        android:id="@+id/registerButton"
+        android:layout_width="198dp"
+        android:layout_height="48dp"
+        android:background="@drawable/button_bg"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/infoButton"
+        app:srcCompat="@drawable/ic_baseline_person_add_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/infoButton"
+        android:layout_width="211dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/button_bg"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/registerButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_baseline_person_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/firstAidButton"
+        android:layout_width="97dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/button_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_touch_canta_foreground" />
+
+    <ImageButton
+        android:id="@+id/hospitalButton"
+        android:layout_width="95dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textAid"
+        app:srcCompat="@mipmap/ic_touch_hastane_foreground" />
+
+    <TextView
+        android:id="@+id/textAid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:text="First-Aid Types"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toStartOf="@+id/textGuard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstAidButton" />
+
+    <TextView
+        android:id="@+id/textMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginRight="163dp"
+        android:text="Map"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toStartOf="@+id/textAlarm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hospitalButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

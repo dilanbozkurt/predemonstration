@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/slideLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="titleHere"
+        android:textAlignment="center"
+        android:textColor="#49767C"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/slideImg"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:isScrollContainer="false"
+        app:civ_border_color="#EABBB8" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="410dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="50dp"
+        android:text="descriptionHere"
+        android:textAlignment="center"
+        android:textColor="#8E5468"
+        android:textSize="22sp"
+        android:gravity="center_horizontal" />
+</LinearLayout>
